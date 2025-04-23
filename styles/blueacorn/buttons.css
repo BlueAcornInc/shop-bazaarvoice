@@ -1,0 +1,27 @@
+/* buttons */
+main a.button:any-link,
+button.button {
+    background-color: var(--theme-color-3);
+    color: var(--color-neutral-50);
+    margin: var(--spacing-xsmall) 0;
+    padding: var(--spacing-small) var(--spacing-medium);
+    letter-spacing: var(--type-button-2-letter-spacing);
+    border-radius: var(--button-border-radius);
+    font-weight: 600;
+    position: relative;
+}
+
+main a.button.secondary,
+button.button.secondary {
+    background-color: var(--theme-color-2);
+}
+
+main a.button:hover,
+main a.button:focus,
+main a.button:any-link:hover,
+main a.button:any-link:focus,
+button.button:hover,
+button.button:focus {
+    cursor: pointer;
+    opacity: .8;
+}
